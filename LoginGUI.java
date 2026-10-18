@@ -143,55 +143,55 @@ public class LoginGUI {
 //used to display popup dialog boxes for messages, 
 //user input, and confirmation.
 
-/*--------------------------------------------------------------------
-1. ActionEvent — JButton:
-button.addActionListener(new ActionListener() {
-    public void actionPerformed(ActionEvent e) {
-        JOptionPane.showMessageDialog(frame, "Button Clicked!");
-    }
-});
+// /*--------------------------------------------------------------------
+// 1. ActionEvent — JButton:
+// button.addActionListener(new ActionListener() {
+//     public void actionPerformed(ActionEvent e) {
+//         JOptionPane.showMessageDialog(frame, "Button Clicked!");
+//     }
+// });
 
-2. ItemEvent — JCheckBox
-checkBox.addItemListener(new ItemListener() {
-    public void itemStateChanged(ItemEvent e) {
-        JOptionPane.showMessageDialog(frame, "Checkbox State Changed!");
-    }
-});
+// 2. ItemEvent — JCheckBox
+// checkBox.addItemListener(new ItemListener() {
+//     public void itemStateChanged(ItemEvent e) {
+//         JOptionPane.showMessageDialog(frame, "Checkbox State Changed!");
+//     }
+// });
 
-3. MouseEvent — MouseListener
-button.addMouseListener(new MouseListener() {
-    public void mouseClicked(MouseEvent e) {
-        System.out.println("Mouse Clicked!");
-    }
+// 3. MouseEvent — MouseListener
+// button.addMouseListener(new MouseListener() {
+//     public void mouseClicked(MouseEvent e) {
+//         System.out.println("Mouse Clicked!");
+//     }
 
-    public void mousePressed(MouseEvent e) {}
-    public void mouseReleased(MouseEvent e) {}
-    public void mouseEntered(MouseEvent e) {}
-    public void mouseExited(MouseEvent e) {}
-});
+//     public void mousePressed(MouseEvent e) {}
+//     public void mouseReleased(MouseEvent e) {}
+//     public void mouseEntered(MouseEvent e) {}
+//     public void mouseExited(MouseEvent e) {}
+// });
 
-4. KeyEvent — KeyListener
-textField.addKeyListener(new KeyListener() {
-    public void keyPressed(KeyEvent e) {
-        System.out.println("Key Pressed!");
-    }
+// 4. KeyEvent — KeyListener
+// textField.addKeyListener(new KeyListener() {
+//     public void keyPressed(KeyEvent e) {
+//         System.out.println("Key Pressed!");
+//     }
 
-    public void keyReleased(KeyEvent e) {}
-    public void keyTyped(KeyEvent e) {}
-});
+//     public void keyReleased(KeyEvent e) {}
+//     public void keyTyped(KeyEvent e) {}
+// });
 
-5. WindowEvent — WindowListener
-frame.addWindowListener(new WindowListener() {
-    public void windowClosing(WindowEvent e) {
-        System.out.println("Window Closing!");
-    }
+// 5. WindowEvent — WindowListener
+// frame.addWindowListener(new WindowListener() {
+//     public void windowClosing(WindowEvent e) {
+//         System.out.println("Window Closing!");
+//     }
 
-    public void windowOpened(WindowEvent e) {}
-    public void windowClosed(WindowEvent e) {}
-    public void windowIconified(WindowEvent e) {}
-    public void windowDeiconified(WindowEvent e) {}
-    public void windowActivated(WindowEvent e) {}
-    public void windowDeactivated(WindowEvent e) {}
-});
+//     public void windowOpened(WindowEvent e) {}
+//     public void windowClosed(WindowEvent e) {}
+//     public void windowIconified(WindowEvent e) {}
+//     public void windowDeiconified(WindowEvent e) {}
+//     public void windowActivated(WindowEvent e) {}
+//     public void windowDeactivated(WindowEvent e) {}
+// });
 
-*
+// *
